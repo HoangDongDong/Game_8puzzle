@@ -7,8 +7,8 @@
 - 🎯 Tìm kiếm có thông tin (Informed Search – Heuristic)
 - 🌄 Tìm kiếm cục bộ (Local Search)
 - 🤖 Học tăng cường (Reinforcement Learning)
+- 🎯Cpps
 
----
 
 ## 🧩 Mô tả bài toán
 
@@ -18,13 +18,7 @@ Ví dụ trạng thái đích:
 
 1 2 3
 4 5 6
-7 8 _
-
-yaml
-Sao chép
-Chỉnh sửa
-
----
+7 8 0
 
 ## 🚀 Các thuật toán đã triển khai
 
@@ -54,11 +48,8 @@ Chỉnh sửa
 
 Dự án sử dụng Python 3.8+ và các thư viện:
 - `pygame` (nếu có giao diện mô phỏng)
-- `numpy`, `random`, `matplotlib` (nếu cần hiển thị kết quả)
+- `numpy`, `random`, `matplotlib`.... (nếu cần hiển thị kết quả)
 
-Cài đặt nhanh:
-```bash
-pip install -r requirements.txt
 ▶️ Cách chạy chương trình
 Chạy thuật toán bằng dòng lệnh hoặc giao diện:
 
@@ -72,26 +63,6 @@ Tham số hỗ trợ:
 
 --heuristic: manhattan, misplaced
 
-📁 Cấu trúc thư mục
-bash
-Sao chép
-Chỉnh sửa
-├── algorithms/
-│   ├── uninformed/
-│   ├── informed/
-│   ├── local_search/
-│   ├── reinforcement/
-├── gui/               # (nếu có dùng pygame để mô phỏng)
-├── utils/
-├── main.py
-├── README.md
-└── requirements.txt
-📚 Tài liệu tham khảo
-Artificial Intelligence – A Modern Approach (Russell & Norvig)
-
-Lecture Notes & SEED Labs
 
 ✍️ Tác giả
-Tên: [Tên của bạn]
-
-Liên hệ: [Email, GitHub]
+Tên: [Hoàng Văn Đông]
